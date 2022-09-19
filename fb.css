@@ -1,0 +1,27 @@
+element.style {
+}
+body {
+    overflow-y: scroll;
+}
+body, button, input, label, select, td, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+body {
+    background: #fff;
+    color: #1c1e21;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+body[Attributes Style] {
+    direction: ltr;
+    unicode-bidi: isolate;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
